@@ -112,14 +112,15 @@ This represents a critical breach of both employee privacy and corporate confide
 
 ## 4. Risk Rating Summary
 
-| Finding                                      | Severity  |
-|---------------------------------------------|-----------|
-| SQL Injection Authentication Bypass         | Critical  |
-| Public Database Backup (Staff + Shareholders)| Critical  |
-| Unauthorized Access to Patient Reports      | High      |
-| Weak PDF Password Protection                | High      |
-| Directory Listing Enabled                   | High      |
-| Sensitive Path Disclosure (robots.txt)      | Medium    |
+| ID | Finding | Severity | CWE |
+| --- | --- | --- | --- |
+| F-01 | SQL Injection – Patient Portal Authentication Bypass | Critical | CWE-89 |
+| F-02 | Unauthenticated Database Backup Disclosure | Critical | CWE-538 |
+| F-03 | Unauthorized Access to Confidential Patient Reports | High | CWE-284 |
+| F-04 | Weak Password Protection on Patient PDFs | High | CWE-521 |
+| F-05 | Directory Listing Enabled | High | CWE-548 |
+| F-06 | Sensitive Information in PDF Metadata | Medium | CWE-200 |
+| F-07 | Username Enumeration | Medium | CWE-204 |
 
 **Overall Risk: Critical**
 

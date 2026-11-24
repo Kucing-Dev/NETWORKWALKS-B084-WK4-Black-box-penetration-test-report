@@ -112,15 +112,14 @@ This represents a critical breach of both employee privacy and corporate confide
 
 ## 4. Risk Rating Summary
 
-| ID | Finding | Severity | CWE |
+| Finding | Severity | CWE ID | CWE Name |
 | --- | --- | --- | --- |
-| F-01 | SQL Injection – Patient Portal Authentication Bypass | Critical | CWE-89 |
-| F-02 | Unauthenticated Database Backup Disclosure | Critical | CWE-538 |
-| F-03 | Unauthorized Access to Confidential Patient Reports | High | CWE-284 |
-| F-04 | Weak Password Protection on Patient PDFs | High | CWE-521 |
-| F-05 | Directory Listing Enabled | High | CWE-548 |
-| F-06 | Sensitive Information in PDF Metadata | Medium | CWE-200 |
-| F-07 | Username Enumeration | Medium | CWE-204 |
+| SQL Injection Authentication Bypass | Critical | CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') |
+| Public Database Backup (Staff + Shareholders) | Critical | CWE-200 / CWE-538 | Exposure of Sensitive Information to an Unauthorized Actor / Insertion of Sensitive Information into Externally-Accessible File or Directory |
+| Unauthorized Access to Patient Reports | High | CWE-284 / CWE-862 | Improper Access Control / Missing Authorization |
+| Weak PDF Password Protection | High | CWE-521 / CWE-326 | Weak Password Requirements / Inadequate Encryption Strength |
+| Directory Listing Enabled | High | CWE-548 | Exposure of Information Through Directory Listing |
+| Sensitive Path Disclosure (robots.txt) | Medium | CWE-200 / CWE-538 | Exposure of Sensitive Information to an Unauthorized Actor |
 
 **Overall Risk: Critical**
 

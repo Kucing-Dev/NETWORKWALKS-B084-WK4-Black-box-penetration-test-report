@@ -76,7 +76,8 @@ Disallow: /old/
 Attackers can easily map the application structure without scanning.
 
 **Evidence**  
-- Screenshot of robots.txt content
+<img width="1365" height="765" alt="00_robots_txt" src="https://github.com/user-attachments/assets/9940d264-e88f-4a60-862f-7b5f8f2b56dc" />
+
 
 ---
 
@@ -99,8 +100,10 @@ This successfully bypassed authentication and granted access to the Patient Port
 Full unauthorized access to the restricted Patient Portal containing confidential laboratory reports.
 
 **Evidence**
-- Screenshot of successful login after payload
-- Screenshot of Patient Portal (`/patient/portal.php`) showing 3 laboratory reports
+<img width="1365" height="766" alt="04_login_php" src="https://github.com/user-attachments/assets/a96f5ae5-e799-4e11-bea2-aee600701692" />
+
+<img width="1365" height="764" alt="05_portal_php" src="https://github.com/user-attachments/assets/2fea72f3-40c9-4de0-ab59-6cd45841325b" />
+
 
 ---
 

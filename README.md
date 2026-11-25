@@ -6,7 +6,7 @@
 | **Engagement Type**     | Black-box Penetration Test                  |
 | **Target**              | https://medirozahospital.com                |
 | **Client**              | Mediroza General Hospital                   |
-| **Batch / Week**        | B083 | Week 4                               |
+| **Batch / Week**        | B084 | Week 4                               |
 | **Duration**            | 5 Days                                      |
 | **Tester**              | Khairunnisya Lubis                          |
 | **Date**                | 24 November 2026                            |

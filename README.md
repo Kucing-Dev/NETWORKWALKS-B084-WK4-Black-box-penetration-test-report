@@ -118,8 +118,7 @@ After authentication bypass, three confidential pathology reports were retrieved
 3. Pathology Report – E. Thompson
 
 **Evidence**
-- Screenshots of the three downloaded PDF files
-- Screenshot of the portal page listing the reports
+<img width="643" height="143" alt="image" src="https://github.com/user-attachments/assets/aea89684-690a-4367-9c49-e9a981dbe699" />
 
 ---
 
@@ -136,9 +135,6 @@ All three laboratory report PDFs used weak passwords that were successfully reco
 | patient_report_2.pdf       | `password`         |
 | patient_report_3.pdf       | `!@#$%^&`          |
 
-**Evidence**
-- Hash extraction using `pdf2john`
-- Successful decryption using `qpdf`
 
 ---
 
@@ -184,9 +180,12 @@ The file required **no authentication** and contained:
 Complete exposure of employee compensation data and corporate ownership structure.
 
 **Evidence**
-- Screenshot of metadata (`exiftool`)
-- Screenshot of directory listing `/old/`
-- Partial content of the SQL dump showing staff and shareholder tables
+- <img width="1365" height="767" alt="14_mediroza_db_backup_sql1" src="https://github.com/user-attachments/assets/471f1fa7-16f4-47b3-88e9-22a4c1d5b4e2" />
+
+- <img width="1364" height="767" alt="03_old" src="https://github.com/user-attachments/assets/4ddffe20-b889-40c3-82db-9fe6015148a3" />
+
+- <img width="1365" height="766" alt="15_mediroza_db_backup_sql2" src="https://github.com/user-attachments/assets/0d64a085-8f5d-4b42-a530-b8fcdb765372" />
+
 
 ---
 

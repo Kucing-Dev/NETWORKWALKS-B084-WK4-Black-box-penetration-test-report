@@ -91,7 +91,7 @@ The login form at `/patient/login.php` was vulnerable to SQL Injection.
 **Payload used:**
 
 Username: admin' --
-Password: (any value)
+Password: admin' #
 
 
 This successfully bypassed authentication and granted access to the Patient Portal.
